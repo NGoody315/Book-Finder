@@ -189,7 +189,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-        <footer>Happy Reading! ❤️Nikki Goodridge </footer>
+        <footer>Happy Reading! ❤️ </footer>
       </div>
     );
   }
