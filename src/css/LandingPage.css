@@ -1,0 +1,22 @@
+.landing {
+  font-size: 20px;
+  color: #ff6f00;
+  font-family: "Script";
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  word-break: break-word;
+  display: block;
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 720px) {
+  .landing {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .landing {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "book-finder",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bikilone.github.io/book-finder",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-dropdown": "^1.6.4",
+    "react-loader-spinner": "^2.3.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-tooltip": "^3.9.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

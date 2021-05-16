@@ -1,0 +1,37 @@
+.error {
+  border: 5px solid red;
+  background-color: #fff6e2;
+  border-radius: 20px;
+  color: #ff6f00;
+  font-family: "Roboto";
+  width: 300px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  right: 100%;
+  visibility: hidden;
+  /* display: none; */
+  animation-name: fade;
+  animation-duration: 4s;
+  font-family: "Ravie";
+  padding: 5px;
+  /* margin-bottom: 100px; */
+}
+
+@keyframes fade {
+  0% {
+    visibility: visible;
+    right: 100%;
+  }
+  25% {
+    right: 0%;
+  }
+  75% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+    display: none;
+  }
+}
